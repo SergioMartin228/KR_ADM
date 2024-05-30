@@ -1,0 +1,62 @@
+﻿@page "/Graph/{GraphId}"
+@using BlazorApp.Services
+@using BlazorApp.Data.Models
+@using BlazorApp.Services.Karp
+@using BlazorApp.Visualization
+@inject IJSRuntime JSRuntime
+
+<PageTitle>Graph @GraphId</PageTitle>
+
+<h3>GraphById</h3>
+@if (serverGraph != null)
+{
+    @if (serverGraph?.Edges != null)
+    {
+        foreach (Edge edge in serverGraph.Edges)
+        {
+            <p>От @edge.From к @edge.To. Пропускная способность @edge.Capacity</p>
+        }
+    }
+    else
+    {
+        <p>Loading...</p> <!-- или любое другое сообщение о загрузке или пустом графе -->
+    }
+    <input placeholder="Исток" @bind="s"/>
+    <input placeholder="Сток" @bind="t"/>
+    <button @onclick="(() => findMaxFlow(s,t))">Текущий найденный максимальный поток: @maxFlow</button>
+    <button @onclick="RenderGraph">Отрисовать граф</button>
+    <svg id="graph-svg" width="960" height="600"></svg>
+
+}
+
+@code {
+    [Parameter]
+    public string GraphId { get; set; }
+    public Data.Models.Graph serverGraph { get; set; }
+    public BlazorApp.Data.Karp.Models.KarpGraph? karpGraph;
+
+    [Inject]
+    private IGraphProvider graphProvider { get; set; }
+    [Inject]
+    private IKarpProvider karpService { get; set; }
+    private int maxFlow, s, t;
+
+    protected override async Task OnInitializedAsync()
+    {
+        serverGraph = await graphProvider.GetOne(int.Parse(GraphId));
+        karpService.TransformGraph(serverGraph);
+        karpGraph = karpService.graph;
+        maxFlow = 0;
+    }
+
+    private void findMaxFlow(int s, int t)
+    {
+        maxFlow = karpService.Execute(s, t);
+    }
+
+    private async Task RenderGraph()
+    {
+        var (nodes, links) = D3Interop.TransformGraphToD3(karpGraph);
+        await D3Interop.RenderGraphAsync(JSRuntime, nodes, links);
+    }
+}

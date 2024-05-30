@@ -1,0 +1,45 @@
+﻿@page "/graphs"
+@using BlazorApp.Data.Models
+@using BlazorApp.Services
+@inject NavigationManager _navigationManager
+
+
+<PageTitle>Graphs</PageTitle>
+
+<h3>Graphs</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Кол-во вершин</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (graphs != null)
+        {
+            @foreach (var graph in graphs)
+            {
+                <tr @onclick="()=>toItem(graph)">
+                    <td>@graph.Id</td>
+                    <td>@graph.VerticesCount</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+
+@code {
+    private List<Graph>? graphs;
+    [Inject]
+    private IGraphProvider graphProvider { get; set; }
+    protected override async Task OnInitializedAsync()
+    {
+        graphs = await graphProvider.GetAll();
+    }
+    public void toItem(Graph graph)
+    {
+        _navigationManager.NavigateTo($"/Graph/{graph.Id}");
+    }
+}
