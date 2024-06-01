@@ -14,17 +14,6 @@ public class KarpGraph
         for (int i = 0; i < verticesCount; i++)
             adjList[i] = new List<KarpEdge>();
     }
-    //public KarpGraph(KarpGraph karp)
-    //{
-    //    VerticesCount = karp.VerticesCount;
-    //    adjList = new List<KarpEdge>[VerticesCount];
-    //    for (int i = 0; i < VerticesCount; i++)
-    //    {
-    //        adjList[i] = new List<KarpEdge>();
-    //        foreach(var edge in karp.adjList[i])
-    //            adjList[i].Add(edge);
-    //    }
-    //}
 
     public void AddEdge(int from, int to, int capacity)
     {

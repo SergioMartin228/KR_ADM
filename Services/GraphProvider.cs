@@ -5,6 +5,7 @@ using BlazorApp.Services.Karp;
 using Newtonsoft.Json;
 using BlazorApp.Data.Models;
 using BlazorApp.Services;
+using BlazorApp.Data.CreateDto;
 
 namespace BlazorApp.Services;
 
@@ -26,12 +27,15 @@ public class GraphProvider : IGraphProvider
         return await _client.GetFromJsonAsync<Graph>($"http://localhost:3001/graph/{id}");
     }
 
-    public async Task<bool> Add(Graph item)
+    public async Task<Graph> Add(CreateGraphDto item)
     {
         string data = JsonConvert.SerializeObject(item);
         StringContent httpContent = new StringContent(data, System.Text.Encoding.UTF8, "application/json");
         var responce = await _client.PostAsync($"http://localhost:3001/graph", httpContent);
-        return await Task.FromResult(responce.IsSuccessStatusCode);
+        var result = await responce.Content.ReadAsStringAsync();
+        Graph created = JsonConvert.DeserializeObject<Graph>(result);
+        //return await Task.FromResult(responce.IsSuccessStatusCode);
+        return created;
     }
 
     public async Task<Graph> Edit(Graph item)

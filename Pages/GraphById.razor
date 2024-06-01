@@ -1,39 +1,61 @@
-﻿@page "/Graph/{GraphId}"
+﻿@page "/graph/{GraphId}"
 @using BlazorApp.Services
 @using BlazorApp.Data.Models
+@using BlazorApp.Data.Karp.Models
 @using BlazorApp.Services.Karp
 @using BlazorApp.Visualization
+
 @inject IJSRuntime JSRuntime
 
 <PageTitle>Graph @GraphId</PageTitle>
 
-<h3>GraphById</h3>
-@if (serverGraph != null)
-{
-    @if (serverGraph?.Edges != null)
-    {
-        foreach (Edge edge in serverGraph.Edges)
+<h3>Граф @GraphId</h3>
+
+
+<h5>Рёбра графа @GraphId</h5>
+<table class="table">
+    <thead>
+        <tr>
+            <th>От</th>
+            <th>К</th>
+            <th>Пропускная способность</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (serverGraph != null)
         {
-            <p>От @edge.From к @edge.To. Пропускная способность @edge.Capacity</p>
+            @if (serverGraph?.Edges != null)
+            {
+                foreach (Edge edge in serverGraph.Edges)
+                {
+                    <tr>
+                        <td>@edge.From</td>
+                        <td>@edge.To</td>
+                        <td>@edge.Capacity</td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <p>Loading...</p> <!-- или любое другое сообщение о загрузке или пустом графе -->
+            }
         }
-    }
-    else
-    {
-        <p>Loading...</p> <!-- или любое другое сообщение о загрузке или пустом графе -->
-    }
+    </tbody>
+</table>
+
+
     <input placeholder="Исток" @bind="s"/>
     <input placeholder="Сток" @bind="t"/>
     <button @onclick="(() => findMaxFlow(s,t))">Текущий найденный максимальный поток: @maxFlow</button>
     <button @onclick="RenderGraph">Отрисовать граф</button>
-    <svg id="graph-svg" width="960" height="600"></svg>
-
-}
+    @* <svg id="graph-svg" width="960" height="800"></svg> *@
+    <div id="cy" style="width: 960px; height: 800px;"></div>
 
 @code {
     [Parameter]
     public string GraphId { get; set; }
     public Data.Models.Graph serverGraph { get; set; }
-    public BlazorApp.Data.Karp.Models.KarpGraph? karpGraph;
+    public KarpGraph karpGraph;
 
     [Inject]
     private IGraphProvider graphProvider { get; set; }
@@ -56,7 +78,8 @@
 
     private async Task RenderGraph()
     {
-        var (nodes, links) = D3Interop.TransformGraphToD3(karpGraph);
-        await D3Interop.RenderGraphAsync(JSRuntime, nodes, links);
+        var (nodes, links) = CytoInterop.TransformGraphToCytoscape(karpGraph);
+        await CytoInterop.RenderGraphAsync(JSRuntime, nodes, links);
     }
+    
 }

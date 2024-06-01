@@ -1,0 +1,82 @@
+﻿@page "/graph/new"
+@using BlazorApp.Services
+@using BlazorApp.Data.CreateDto
+@using BlazorApp.Data.Models
+
+<PageTitle>Create Graph</PageTitle>
+
+<h3>Создать сеть</h3>
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @errorMessage
+    </div>
+}
+
+<EditForm Model="@createGraphDto" OnValidSubmit="@HandleValidSubmit">
+    <div class="form-group mb-3">
+        <label for="verticesCount">Количество вершин:</label>
+        <InputNumber @bind-Value="@createGraphDto.verticesCount" class="form-control" id="verticesCount" />
+    </div>
+    <div class="form-group mb-3">
+        <p>Доступны номера вершин: от 0 до @(createGraphDto.verticesCount-1)</p>
+        </div>
+    <div class="form-group mb-3">
+        <label>Рёбра:</label>
+        @foreach (var edge in edges)
+        {
+            <div>
+                Из:
+                <InputNumber @bind-Value="edge.from" class="form-control mb-3" />
+                В:
+                <InputNumber @bind-Value="edge.to" class="form-control mb-3" />
+                Пропускная способность:
+                <InputNumber @bind-Value="edge.capacity" class="form-control mb-3" />
+                <button class="mb-3" @onclick="@(e => RemoveEdge(edge))">Удалить</button>
+            </div>
+        }
+        <button type="button" @onclick="AddEdge">Добавить ребро</button>
+    </div>
+    @if (result != null)
+    {
+        <div class="alert alert-success" role="alert">
+            Создан граф с id @result.Id
+        </div>
+    }
+    <button type="submit" class="btn btn-primary">Создать граф</button>
+</EditForm>
+
+@code {
+    [Inject]
+    private IGraphProvider graphProvider { get; set; }
+    private CreateGraphDto createGraphDto = new CreateGraphDto();
+    private List<CreateEdgeDto> edges = new List<CreateEdgeDto>();
+    private Graph result;
+    string errorMessage;
+
+    protected override void OnInitialized()
+    {
+        createGraphDto.edges = edges; // Инициализировать начальное состояние DTO
+    }
+
+    private void AddEdge()
+    {
+        edges.Add(new CreateEdgeDto());
+    }
+
+    private void RemoveEdge(CreateEdgeDto edge)
+    {
+        edges.Remove(edge);
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        errorMessage = string.Empty;
+        if (!CreateGraphDto.IsValid(createGraphDto))
+        {
+            errorMessage = "Граф невалидный. Пожалуйста, проверьте введённые данные.";
+            return;
+        }
+        result = await graphProvider.Add(createGraphDto);
+    }
+}

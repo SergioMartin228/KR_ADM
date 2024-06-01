@@ -6,6 +6,15 @@ namespace BlazorApp.Services.Karp;
 
 public class KarpProvider : IKarpProvider
 {
+    private static void print(int[] a)
+    {
+        Console.Write(a[0]);
+        for (int i = 1; i < a.Length; i++)
+        {
+            Console.Write("," + a[i]);
+        }
+        Console.WriteLine();
+    }
     public KarpGraph graph { get; set; }
     private int[] parent;
 
@@ -70,6 +79,8 @@ public class KarpProvider : IKarpProvider
 
         while ((new_flow = BFS(s, t)) > 0)
         {
+            print(parent);
+            Console.WriteLine(new_flow);
             flow += new_flow;
             int current = t;
             while (current != s)

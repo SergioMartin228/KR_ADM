@@ -1,0 +1,393 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|d:\\\u043C\u0438\u0441\u0438\u0441\\\u0430\u0434\u043C\\\u043A\u0440\\ksp\\blazorapp\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|solutionrelative:shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|d:\\\u043C\u0438\u0441\u0438\u0441\\\u0430\u0434\u043C\\\u043A\u0440\\ksp\\blazorapp\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|solutionrelative:pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|d:\\\u043C\u0438\u0441\u0438\u0441\\\u0430\u0434\u043C\\\u043A\u0440\\ksp\\blazorapp\\wwwroot\\js\\cytographvizualization.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|solutionrelative:wwwroot\\js\\cytographvizualization.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|d:\\\u043C\u0438\u0441\u0438\u0441\\\u0430\u0434\u043C\\\u043A\u0440\\ksp\\blazorapp\\visualization\\cytointerop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|solutionrelative:visualization\\cytointerop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|d:\\\u043C\u0438\u0441\u0438\u0441\\\u0430\u0434\u043C\\\u043A\u0440\\ksp\\blazorapp\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|d:\\\u043C\u0438\u0441\u0438\u0441\\\u0430\u0434\u043C\\\u043A\u0440\\ksp\\blazorapp\\pages\\graphbyid.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|solutionrelative:pages\\graphbyid.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|d:\\\u043C\u0438\u0441\u0438\u0441\\\u0430\u0434\u043C\\\u043A\u0440\\ksp\\blazorapp\\pages\\graphs.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|solutionrelative:pages\\graphs.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|d:\\\u043C\u0438\u0441\u0438\u0441\\\u0430\u0434\u043C\\\u043A\u0440\\ksp\\blazorapp\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|solutionrelative:shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|d:\\\u043C\u0438\u0441\u0438\u0441\\\u0430\u0434\u043C\\\u043A\u0440\\ksp\\blazorapp\\shared\\surveyprompt.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|solutionrelative:shared\\surveyprompt.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|d:\\\u043C\u0438\u0441\u0438\u0441\\\u0430\u0434\u043C\\\u043A\u0440\\ksp\\blazorapp\\pages\\creategraph.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|solutionrelative:pages\\creategraph.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|d:\\\u043C\u0438\u0441\u0438\u0441\\\u0430\u0434\u043C\\\u043A\u0440\\ksp\\blazorapp\\data\\karp\\karpedge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|solutionrelative:data\\karp\\karpedge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|d:\\\u043C\u0438\u0441\u0438\u0441\\\u0430\u0434\u043C\\\u043A\u0440\\ksp\\blazorapp\\data\\karp\\karpgraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|solutionrelative:data\\karp\\karpgraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|d:\\\u043C\u0438\u0441\u0438\u0441\\\u0430\u0434\u043C\\\u043A\u0440\\ksp\\blazorapp\\data\\edge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|solutionrelative:data\\edge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|d:\\\u043C\u0438\u0441\u0438\u0441\\\u0430\u0434\u043C\\\u043A\u0440\\ksp\\blazorapp\\data\\createdto\\creategraphdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|solutionrelative:data\\createdto\\creategraphdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|d:\\\u043C\u0438\u0441\u0438\u0441\\\u0430\u0434\u043C\\\u043A\u0440\\ksp\\blazorapp\\data\\createdto\\createedgedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|solutionrelative:data\\createdto\\createedgedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|d:\\\u043C\u0438\u0441\u0438\u0441\\\u0430\u0434\u043C\\\u043A\u0440\\ksp\\blazorapp\\services\\igraphprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|solutionrelative:services\\igraphprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|d:\\\u043C\u0438\u0441\u0438\u0441\\\u0430\u0434\u043C\\\u043A\u0440\\ksp\\blazorapp\\services\\graphprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|solutionrelative:services\\graphprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|d:\\\u043C\u0438\u0441\u0438\u0441\\\u0430\u0434\u043C\\\u043A\u0440\\ksp\\blazorapp\\data\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|solutionrelative:data\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|d:\\\u043C\u0438\u0441\u0438\u0441\\\u0430\u0434\u043C\\\u043A\u0440\\ksp\\blazorapp\\services\\karp\\karpprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|solutionrelative:services\\karp\\karpprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|d:\\\u043C\u0438\u0441\u0438\u0441\\\u0430\u0434\u043C\\\u043A\u0440\\ksp\\blazorapp\\services\\karp\\ikarpprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|solutionrelative:services\\karp\\ikarpprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|d:\\\u043C\u0438\u0441\u0438\u0441\\\u0430\u0434\u043C\\\u043A\u0440\\ksp\\blazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|d:\\\u043C\u0438\u0441\u0438\u0441\\\u0430\u0434\u043C\\\u043A\u0440\\ksp\\blazorapp\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|solutionrelative:app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|d:\\\u043C\u0438\u0441\u0438\u0441\\\u0430\u0434\u043C\\\u043A\u0440\\ksp\\blazorapp\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C047D64F-BAD4-40C8-AF99-E2890D1C3740}|BlazorApp.csproj|solutionrelative:_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 251,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.razor",
+              "DocumentMoniker": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "Pages\\Index.razor",
+              "ToolTip": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Pages\\Index.razor",
+              "RelativeToolTip": "Pages\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T19:13:48.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Graphs.razor",
+              "DocumentMoniker": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Pages\\Graphs.razor",
+              "RelativeDocumentMoniker": "Pages\\Graphs.razor",
+              "ToolTip": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Pages\\Graphs.razor",
+              "RelativeToolTip": "Pages\\Graphs.razor",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T11:51:29.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GraphById.razor",
+              "DocumentMoniker": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Pages\\GraphById.razor",
+              "RelativeDocumentMoniker": "Pages\\GraphById.razor",
+              "ToolTip": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Pages\\GraphById.razor",
+              "RelativeToolTip": "Pages\\GraphById.razor",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAADQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T12:34:34.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "wwwroot\\index.html",
+              "ToolTip": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\wwwroot\\index.html",
+              "RelativeToolTip": "wwwroot\\index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-29T19:14:09.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CytoInterop.cs",
+              "DocumentMoniker": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Visualization\\CytoInterop.cs",
+              "RelativeDocumentMoniker": "Visualization\\CytoInterop.cs",
+              "ToolTip": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Visualization\\CytoInterop.cs",
+              "RelativeToolTip": "Visualization\\CytoInterop.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwC0AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T12:05:48.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CytoGraphVizualization.js",
+              "DocumentMoniker": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\wwwroot\\js\\CytoGraphVizualization.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\CytoGraphVizualization.js",
+              "ToolTip": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\wwwroot\\js\\CytoGraphVizualization.js",
+              "RelativeToolTip": "wwwroot\\js\\CytoGraphVizualization.js",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-01T12:03:25.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Shared\\MainLayout.razor",
+              "ToolTip": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "Shared\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAC9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-01T14:27:46.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Shared\\NavMenu.razor",
+              "ToolTip": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "Shared\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T22:49:52.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SurveyPrompt.razor",
+              "DocumentMoniker": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Shared\\SurveyPrompt.razor",
+              "RelativeDocumentMoniker": "Shared\\SurveyPrompt.razor",
+              "ToolTip": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Shared\\SurveyPrompt.razor",
+              "RelativeToolTip": "Shared\\SurveyPrompt.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-01T14:32:59.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateGraph.razor",
+              "DocumentMoniker": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Pages\\CreateGraph.razor",
+              "RelativeDocumentMoniker": "Pages\\CreateGraph.razor",
+              "ToolTip": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Pages\\CreateGraph.razor",
+              "RelativeToolTip": "Pages\\CreateGraph.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-31T21:53:52.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "KarpGraph.cs",
+              "DocumentMoniker": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Data\\Karp\\KarpGraph.cs",
+              "RelativeDocumentMoniker": "Data\\Karp\\KarpGraph.cs",
+              "ToolTip": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Data\\Karp\\KarpGraph.cs",
+              "RelativeToolTip": "Data\\Karp\\KarpGraph.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAiwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T13:25:05.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Edge.cs",
+              "DocumentMoniker": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Data\\Edge.cs",
+              "RelativeDocumentMoniker": "Data\\Edge.cs",
+              "ToolTip": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Data\\Edge.cs",
+              "RelativeToolTip": "Data\\Edge.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T11:55:10.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "KarpEdge.cs",
+              "DocumentMoniker": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Data\\Karp\\KarpEdge.cs",
+              "RelativeDocumentMoniker": "Data\\Karp\\KarpEdge.cs",
+              "ToolTip": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Data\\Karp\\KarpEdge.cs",
+              "RelativeToolTip": "Data\\Karp\\KarpEdge.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T13:25:42.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateEdgeDto.cs",
+              "DocumentMoniker": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Data\\CreateDto\\CreateEdgeDto.cs",
+              "RelativeDocumentMoniker": "Data\\CreateDto\\CreateEdgeDto.cs",
+              "ToolTip": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Data\\CreateDto\\CreateEdgeDto.cs",
+              "RelativeToolTip": "Data\\CreateDto\\CreateEdgeDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T21:48:51.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateGraphDto.cs",
+              "DocumentMoniker": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Data\\CreateDto\\CreateGraphDto.cs",
+              "RelativeDocumentMoniker": "Data\\CreateDto\\CreateGraphDto.cs",
+              "ToolTip": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Data\\CreateDto\\CreateGraphDto.cs",
+              "RelativeToolTip": "Data\\CreateDto\\CreateGraphDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T21:50:36.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GraphProvider.cs",
+              "DocumentMoniker": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Services\\GraphProvider.cs",
+              "RelativeDocumentMoniker": "Services\\GraphProvider.cs",
+              "ToolTip": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Services\\GraphProvider.cs",
+              "RelativeToolTip": "Services\\GraphProvider.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T12:03:27.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IGraphProvider.cs",
+              "DocumentMoniker": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Services\\IGraphProvider.cs",
+              "RelativeDocumentMoniker": "Services\\IGraphProvider.cs",
+              "ToolTip": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Services\\IGraphProvider.cs",
+              "RelativeToolTip": "Services\\IGraphProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T11:52:03.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Graph.cs",
+              "DocumentMoniker": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Data\\Graph.cs",
+              "RelativeDocumentMoniker": "Data\\Graph.cs",
+              "ToolTip": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Data\\Graph.cs",
+              "RelativeToolTip": "Data\\Graph.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T11:54:10.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "KarpProvider.cs",
+              "DocumentMoniker": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Services\\Karp\\KarpProvider.cs",
+              "RelativeDocumentMoniker": "Services\\Karp\\KarpProvider.cs",
+              "ToolTip": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Services\\Karp\\KarpProvider.cs",
+              "RelativeToolTip": "Services\\Karp\\KarpProvider.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAowAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T13:20:51.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IKarpProvider.cs",
+              "DocumentMoniker": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Services\\Karp\\IKarpProvider.cs",
+              "RelativeDocumentMoniker": "Services\\Karp\\IKarpProvider.cs",
+              "ToolTip": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Services\\Karp\\IKarpProvider.cs",
+              "RelativeToolTip": "Services\\Karp\\IKarpProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T13:47:58.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T20:48:31.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\App.razor",
+              "RelativeDocumentMoniker": "App.razor",
+              "ToolTip": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\App.razor",
+              "RelativeToolTip": "App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T13:52:05.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\_Imports.razor",
+              "RelativeDocumentMoniker": "_Imports.razor",
+              "ToolTip": "D:\\\u041C\u0418\u0421\u0418\u0421\\\u0410\u0414\u041C\\\u041A\u0420\\KSP\\BlazorApp\\_Imports.razor",
+              "RelativeToolTip": "_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T20:48:50.92Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
